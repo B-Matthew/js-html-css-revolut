@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+/* REGOLE STYLE CSS */
+
+header {
+  height: 130px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul-header> li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 25px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+a:hover {
+  color: black;
+}
+
+.a-black {
+  color: black;
+  font-weight: 400;
+}
+
+.a-black i {
+  font-size: 30px;
+}
+
+#btn-sign {
+  background-color: #F3F4F5;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#btn-sign:hover {
+  background-color: lightgrey;
+}
+
+#btn-get:hover {
+  opacity: 0.8;
+}
+
+#btn-get {
+  font-weight: 400;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+/* REGOLE STYLE PER JS */
+
+.dropdown-content {
+  display: none;
+  font-weight: 400;
+  position: absolute;
+  top: 30px;
+  left: -15px;
+  color: grey;
+  min-width: 140px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-features {
+  display: none;
+  font-weight: 400;
+  position: absolute;
+  top: 30px;
+  left: -200px;
+  color: grey;
+  min-width: 140px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.features {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.dropdown-content li {
+  margin: 30px 10px ;
+  list-style-type: none;
+}
+
+.dropdown-features li {
+  list-style-type: none;
+  margin: 30px 35px ;
+}
+
+.title-li {
+  color: lightgrey;
+}
